@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PREFIX='http://dumps.wikimedia.org/enwiki/20120104/'
+PREFIX='https://s3.amazonaws.com/machine_learning_data/wikipedia/edge_list/data/'
 DATA_DIRECTORY='../data/'
 
 for file in $(cat file_list)
